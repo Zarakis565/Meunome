@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Idroid'; /* Nome que você escolhe para usar a fonte */
+  src: url('fontes/idroid.otf') format('opentype'); /* Especifica o formato correto */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, Helvetica, Sans-Serif;
+  background-color: #a1efc1;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+background-image: linear-gradient(to bottom , #50C27D, #46B370, #1A5C38);
+  padding: 1px ; /* Espaçamento interno */
+  text-align: center; /* Centralizar o texto */
+  color: white; /* Cor do texto */
+  font-size: 18px; /* Ajustei o tamanho da fonte */
+  
+}
+
+header h2 {
+  
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 10px 1px 1px 1px;
+}
+h1{
+  font-family:idroid,helvetica,verdana;
+  font-size:25px;
+  color:#1A5C38;
+}
+
+header p {
+  font-size: 12px;
+}
+
+nav {
+  background-color:#1A5C38;
+  text-align: left;
+}
+
+nav a {
+  font-size: 10px; /* Tamanho da fonte ajustado */
+  color: white; /* Cor dos links */
+  text-decoration: none; /* Retira o sublinhado */
+  padding: 10px;
+  
+}
+
+nav a:hover {
+  background-color: ; /* Efeito hover para links */
+}
+h3{
+  font-size:15px;
+  font-family:idroid,helvetica,verdana;
+  background-color: #a1efc198;
+  color:#006400;
+}
+
+main {
+  background-color: white;
+  padding:1px;
+  margin: 0px 20px 0px 20px;
+  border-top: 0px solid;
+  font-size:18px;
+}
+p{
+  font-size:14px;
+}
+
+div{
+  width:200px;
+  height:200px;
+  display:inline-block;
+}
+
+
+.imagem-responsiva img {
+    max-width: 100%;
+    height: auto;
+}
+.imagem img {
+    max-width: 100%;
+    height: auto;
+}
+.basico {
+  background-color:#1b4a36 ;
+  border-width:20px 10px 35px 15px;
+  border-style:solid;
+  border-color: #1b4a36;
+  
+  height:180px;
+  width:310px;
+}
+
+.basico iframe {
+
+    width:250px; /* Define uma largura responsiva */
+    height:200px; /* Define uma altura responsiva */
+    border-width: 0px 0px 0px 25px ; /* Borda opcional */
+    border-style:solid;
+    border-color:#1b4a36;
+    
+
+
+}
+
+h4{
+  background-color:#21ae64;
+  color:white;
+  border-radius:5px 5px 0px 0px;
+}
+.legal {
+  background-color:#a1efc1;
+  border-radius:0px 0px 5px 5px;
+  margin:10px 10px 10px 10px;
+}
+
+footer {
+  background-color:#1b4a36;
+  color: white;
+  padding:5px;
+  text-align: center;
+}
+.lista-android {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: auto;
+}
+
+.coluna {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size:16px;
+}
+
+.coluna li {
+  margin-bottom: 5px;
+}
+
